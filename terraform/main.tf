@@ -4,7 +4,7 @@ provider "aws" {
     region = "eu-west-2"
 }
 
-resource "ec2 "example" {
+resource "ec2" "example" {
     ami = "ami-01a6e31ac994bbc09"
     instance_type = "t2.micro"
     tags {
