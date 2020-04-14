@@ -25,3 +25,6 @@ variable "task_memory" { default = 300 }
 
 variable "ignore_changes" { default = "task_definition,container_definitions" }
 
+
+
+
